@@ -2,3 +2,5 @@ node_modules/
 npm-debug.log
 bundle.js
 dist/
+.DS_Store
+package-lock.json
