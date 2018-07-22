@@ -1,8 +1,8 @@
-翻译自： [presentational and container component](https://github.com/xsteadybcgo/react-redux-todolist/new/master) &copy;翻译仅供学习使用，版权归原作者所有。
+翻译自： [presentational and container component](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) &copy;翻译仅供学习使用，版权归原作者所有。
 
-&emsp;在写react应用的时候，我发现有一种非常不错的模式。如果你写过react应用你可能已经发现它了。[这片文章](https://medium.com/@learnreact/container-components-c0e67432e005)对此做了很好的解释，但是我想补充几点。
+在写react应用的时候，我发现有一种非常不错的模式。如果你写过react应用你可能已经发现它了。[这片文章](https://medium.com/@learnreact/container-components-c0e67432e005)对此做了很好的解释，但是我想补充几点。
 
-&emsp;如果将组件分为两类，您会发现组件更易于重复使用和使用的理由。我称之为容器组件和展示组件。但我也听说过胖组件（_Fat_）和瘦组件（_Skinny_)，聪明组件(_Smart_)和笨组件(_Dumb_)， 状态组件（_Stateful_)和纯组件(_Pure_)，荧屏(_Screens_)和组件(_Components_)等等。这些并非完全相同，但其核心思想是相似的。     
+如果将组件分为两类，您会发现组件将更易于重复使用以及这么做的理由。我称之为容器组件和展示组件。但我也听说过胖组件（_Fat_）和瘦组件（_Skinny_)，聪明组件(_Smart_)和笨组件(_Dumb_)， 状态组件（_Stateful_)和纯组件(_Pure_)，荧屏(_Screens_)和组件(_Components_)等等。这些并非完全相同，但其核心思想是相似的。     
 
 ###### 我的展示组件（**presentational components**）
 - 关注事物外观。
